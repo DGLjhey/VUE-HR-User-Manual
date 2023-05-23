@@ -1,0 +1,92 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+ /* html, body, .heroBanner {
+  height: 80vh;
+  margin: 0;
+} */
+
+/* .heroBanner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+} */
+
+.heroBanner {
+  padding-top: 4rem;
+}
+
+.heroBanner {
+  padding: 13.5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* .loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.loginCard {
+  background-color: #ced8e3;
+  border-radius: 5px;
+  padding: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginForm input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  align-items: center;
+} */
+
+/* .loginForm input[type="text"] {
+  margin-right: 0.5rem;
+} */
+
+/* .loginForm button {
+  margin-top: 1rem;
+  padding: 0.6rem 3rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #0c3b73;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+} */
+
+.title{
+  color: #454545;
+  margin-bottom: 2.5rem;
+}
+
+.errorMessage{
+  color: red;
+}
